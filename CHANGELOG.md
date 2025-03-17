@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/dtricks/patch-angulus/compare/v1.0.0...v1.0.1) (2025-03-17)
+
+
+### Bug Fixes
+
+* correct instruction in RemoveAdsPatch.kt to use return instead of return-object ([179caad](https://github.com/dtricks/patch-angulus/commit/179caadb9c9b6c808024d3d7caa5f86d0faff5f8))
+* update instruction in RemoveAdsPatch.kt to return object value correctly ([0d13faf](https://github.com/dtricks/patch-angulus/commit/0d13faf035ddef7951af29070dc1b061774c24cb))
+
 # 1.0.0 (2025-03-17)
 
 
