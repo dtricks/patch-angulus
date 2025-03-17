@@ -2,9 +2,9 @@ group = "app.revanced"
 
 patches {
     about {
-        name = "ReVanced Patches template"
-        description = "Patches template for ReVanced"
-        source = "git@github.com:revanced/revanced-patches-template.git"
+        name = "ReVanced Patches for Angulus"
+        description = "Patches for Angulus"
+        source = "git@github.com:dtricks/patch-angulus.git"
         author = "ReVanced"
         contact = "contact@revanced.app"
         website = "https://revanced.app"
