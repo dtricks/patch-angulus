@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dtricks/patch-angulus/compare/v1.0.1...v1.0.2) (2025-03-17)
+
+
+### Bug Fixes
+
+* remove unnecessary return statement in RemoveAdsPatch.kt ([1787246](https://github.com/dtricks/patch-angulus/commit/17872462c1fd52b3f53eb8ed5bd2bf7386a45b6a))
+
 ## [1.0.1](https://github.com/dtricks/patch-angulus/compare/v1.0.0...v1.0.1) (2025-03-17)
 
 
