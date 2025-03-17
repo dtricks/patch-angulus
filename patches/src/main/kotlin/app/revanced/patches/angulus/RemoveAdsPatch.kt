@@ -1,7 +1,7 @@
 package app.revanced.patches.angulus
 
 import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
+import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
 
 @Suppress("unused")
 val examplePatch = bytecodePatch(
@@ -13,10 +13,11 @@ val examplePatch = bytecodePatch(
     execute {
         // By overwriting the second parameter of the method,
         // the view which holds the advertisement is removed.
-        angulusAdsFingerprint.method.addInstruction(
+        angulusAdsFingerprint.method.addInstructions(
             0, 
             """
                 const/4 v0, 0x1;
+                return v0
             """,
             )
     }
