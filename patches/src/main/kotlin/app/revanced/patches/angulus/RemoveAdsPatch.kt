@@ -11,6 +11,7 @@ val examplePatch = bytecodePatch(
     compatibleWith("com.drinkplusplus.angulus"("5.0.20"))
 
     execute {
+        // Remove the ads
         angulusAdsFingerprint.method.addInstructions(
             0, 
             """
