@@ -1,4 +1,4 @@
-public final class app/revanced/patches/example/ExamplePatchKt {
+public final class app/revanced/patches/angulus/RemoveAdsPatchKt {
 	public static final fun getExamplePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
