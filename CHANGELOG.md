@@ -1,3 +1,13 @@
+# 1.0.0 (2025-03-17)
+
+
+### Bug Fixes
+
+* correct instruction in RemoveAdsPatch.kt to properly return value ([ea1babf](https://github.com/dtricks/patch-angulus/commit/ea1babf68ad27817b78cac327f21656faa35a696))
+* correct syntax error in RemoveAdsPatch.kt ([425a5b2](https://github.com/dtricks/patch-angulus/commit/425a5b2da2064effd99212231014ed0dfb46d84e))
+* update instruction in RemoveAdsPatch.kt to return correct value ([136cbc8](https://github.com/dtricks/patch-angulus/commit/136cbc8e5be4a48cb72cc711a67e13ac3adf58fa))
+* update instruction in RemoveAdsPatch.kt to return correct value and add compiler options in build.gradle.kts ([0f7b266](https://github.com/dtricks/patch-angulus/commit/0f7b2667835bd6de61583ad7308b5b1ca9fdc140))
+
 ## [1.0.4](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.3...v1.0.4) (2024-11-05)
 
 ## [1.0.4-dev.2](https://github.com/ReVanced/revanced-patches-template/compare/v1.0.4-dev.1...v1.0.4-dev.2) (2024-11-05)
