@@ -1,6 +1,7 @@
 ### Java template
 # Compiled class file
 *.class
+dtricks*
 
 # Log file
 *.log
