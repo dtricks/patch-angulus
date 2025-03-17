@@ -11,8 +11,6 @@ val examplePatch = bytecodePatch(
     compatibleWith("com.drinkplusplus.angulus"("5.0.20"))
 
     execute {
-        // By overwriting the second parameter of the method,
-        // the view which holds the advertisement is removed.
         angulusAdsFingerprint.method.addInstructions(
             0, 
             """
