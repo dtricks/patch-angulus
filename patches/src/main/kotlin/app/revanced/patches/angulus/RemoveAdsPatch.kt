@@ -1,6 +1,6 @@
 package app.revanced.patches.angulus
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
+import app.revanced.patcher.extensions.InstructionExtensions.returnEarly
 import app.revanced.patcher.patch.bytecodePatch
 
 @Suppress("unused")
@@ -12,13 +12,7 @@ val angulusPatch = bytecodePatch(
 
     execute {
         // Remove the ads
-        angulusAdsFingerprint.method.addInstructions(
-            0, 
-            """
-                const/4 v0, 0x1
-                return v0
-            """,
-            )
+        angulusAdsFingerprint.method.returnEarly()
     }
 
 }
