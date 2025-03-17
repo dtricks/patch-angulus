@@ -13,11 +13,11 @@ val examplePatch = bytecodePatch(
     execute {
         // By overwriting the second parameter of the method,
         // the view which holds the advertisement is removed.
-        angulusAdsFingerprint.method.addInstructions(
+        angulusAdsFingerprint.method.addInstruction(
             0, 
             """
-            const/4 vx, 0x1;
-            return-object vx
+                const/4 v0, 0x1;
+                return v0
             """,
             )
     }
