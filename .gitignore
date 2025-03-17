@@ -2,6 +2,7 @@
 # Compiled class file
 *.class
 dtricks*
+local.properties
 
 # Log file
 *.log
